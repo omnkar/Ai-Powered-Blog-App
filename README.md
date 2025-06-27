@@ -84,6 +84,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 IMAGEKIT_URL_ENDPOINT=your_imagekit_url_endpoint
+GOOGLE_CLIENT_ID=your_google_client_id
 ```
 
 *   Replace `your_mongodb_connection_string` with your MongoDB connection URI (e.g., `mongodb://localhost:27017/SmartScribe` or your MongoDB Atlas URI).
@@ -117,6 +118,7 @@ Create a `.env` file in the `client` directory and add the following environment
 
 ```env
 VITE_BASE_URL=http://localhost:5000
+VITE_GOOGLE_CLIENT_ID=your_google_client_id
 ```
 
 *   Ensure `VITE_BASE_URL` matches the port your backend server is running on.
