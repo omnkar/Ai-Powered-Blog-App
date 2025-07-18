@@ -156,6 +156,3 @@ The frontend application will typically open in your browser at `http://localhos
 
 Contributions are welcome! Please feel free to fork the repository, create a new branch, and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License.
